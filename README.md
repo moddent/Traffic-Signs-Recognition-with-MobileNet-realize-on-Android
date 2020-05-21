@@ -1,2 +1,2 @@
 # Traffic-Signs-Recognition-with-MobileNet-realize-on-Android
- Machine Learning final project
+Work with pytorch 1.4.0
