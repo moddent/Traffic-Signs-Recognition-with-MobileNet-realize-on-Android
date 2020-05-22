@@ -24,7 +24,8 @@ LR = 0.001
 device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 cudnn.benchmark = True
 # prepare data
-traffic_sign_transforms = transforms.Compose([transforms.RandomAffine(degrees=(-30, 30),
+traffic_sign_transforms = transforms.Compose([transforms.Resize([256, 256]),
+					      transforms.RandomAffine(degrees=(-30, 30),
                                                                       translate=(0, 0.5),
                                                                       scale=(0.3, 1),
                                                                       shear=(-30, 30),
