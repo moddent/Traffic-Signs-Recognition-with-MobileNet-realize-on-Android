@@ -7,9 +7,9 @@ Use phone to take a traffic sign picture, then recognizing it.
 * Pytorch >= 1.3.0
 * Android Studio >= 4.0
 ## Getting Started
-Here is example that use some image.  
+Here is an example that uses some images.  
 You can download the full image from [German Traffic Sign Recognition Benchmark](https://www.kaggle.com/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign).  
-After downloading, you just put image in corresponding folder.  
+After downloading, you just put the image in the corresponding folder.  
 
 To testing dataloader, run the following script from the directory:  
 
