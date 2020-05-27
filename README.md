@@ -19,3 +19,6 @@ Training MobileNet, directly run:
 
     python main.py  
 ## Demo
+## License
+This project is released under the MIT license.   
+If you have any issue, please submit an issue or contact us at:zxcz14071407@gmail.com/tyson.wang26@gmail.com
